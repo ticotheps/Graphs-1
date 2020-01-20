@@ -11,14 +11,14 @@
       # - connections between vertices; can be BIDRECTIONAL (point in both
       #   directions to indicate a two-way relationship)
     # - "Weights"
-  #     - values assigned to edges used to describe the relationship between its
-  #       nodes.
+      # - values assigned to edges used to describe the relationship between its
+      #   nodes.
       # - the "cost" to travel across an edge
       
   # - What are they useful for?
     # - illustrating or representing relationships between entities
-  #     - i.e. - social networks, physical networks (cell towers), maps of
-  #       underground subway, cities, etc.
+      # - i.e. - social networks, physical networks (cell towers), maps of
+      #   underground subway, cities, etc.
       
   # - What kinds of graphs exist?
     # - "Directed Graphs"
@@ -34,8 +34,12 @@
     # - "Acyclic Graphs"
       # - nodes/vertices that can be visited only ONCE during traversal
       
-  # - Summary
+  # - Summary of Graphs
     # - Graphs are a set of vertices and edges that connect those vertices.
     # - Graphs can be used to represent a variety of different networks or
-    #   related pieces of data.
+      # related pieces of data.
+    # - A 'tree' will always be a 'graph', but NOT ALL graphs will be trees.
+      # - Trees are nothing more than restricted types of graphs, just with more
+        # rules to follow.
+      # - Binary trees are a type of graph (directed acyclic graphs).
       
