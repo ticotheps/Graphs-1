@@ -11,18 +11,20 @@
       # - connections between vertices; can be BIDRECTIONAL (point in both
       #   directions to indicate a two-way relationship)
     # - "Weights"
+  #     - values assigned to edges used to describe the relationship between its
+  #       nodes.
       # - the "cost" to travel across an edge
-      # - only assigned to edges (not nodes)
       
   # - What are they useful for?
     # - illustrating or representing relationships between entities
-      # - i.e. - social networks, physical networks (cell towers), cities, etc.
+  #     - i.e. - social networks, physical networks (cell towers), maps of
+  #       underground subway, cities, etc.
       
   # - What kinds of graphs exist?
     # - "Directed Graphs"
-      # - can only move in ONE direction along edges
+      # - graphs that only allow movement in ONE direction along the edges.
     # - "Undirected Graphs"
-      # - allows movement in BOTH directions along edges
+      # - graphs that allow movement in BOTH directions along the edges during traversal.
     # - "Weighted Graphs" 
       # - allows the edges (between vertices/nodes) to have weights on them.
     # - "Unweighted Graphs" 
@@ -31,4 +33,9 @@
       # - the edges of this graph allow you revisit at least one vertex during traversal.
     # - "Acyclic Graphs"
       # - nodes/vertices that can be visited only ONCE during traversal
+      
+  # - Summary
+    # - Graphs are a set of vertices and edges that connect those vertices.
+    # - Graphs can be used to represent a variety of different networks or
+    #   related pieces of data.
       
