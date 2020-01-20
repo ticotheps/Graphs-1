@@ -41,11 +41,15 @@
     # - "Graph Theory" came from mathematics, where graphs were used to formally
     #   represent a network, which is basically just a collection of objects
     #   that are all interconnected.
+
+  # - Mathematics & Graph Theory
     # - In mathematics, graphs are defined as ordered pairs, using the variable 
     #   names, 'v' and 'e' to describe 'vertices' and 'edges', respectively, 
     #   very much in the same way that 'x' and 'y' are used to describe an 
     #   ordered pair of coordinates.
-    
+      # - Formula for representing a graph in math: G = (v,e)
+        # - v = a SET of nodes (also called "vertices")
+        # - e = a SET of edges (also called "links") 
       
   # - Graphs vs Trees
     # - A 'tree' will always be a 'graph', but NOT ALL graphs will be trees.
